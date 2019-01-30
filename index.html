@@ -47,10 +47,34 @@
 				</p>
 
 				<form class="header__form">
-					<span class="icon-calendar"></span>
-					<input class="header__date" type="date">
-					<input type="time">
-					<input type="text">
+					<div class="form__group">
+						<span class="icon-calendar primary-color"></span>
+						<input class="header__date" type="date">	
+					</div>
+					
+					<div class="form__group">
+						<span class="icon-clock">
+							<select>
+								<option selected="selected" value="null">Horario</option>
+  								<option value="15">15:00</option>
+  								<option value="15-30">15:30</option>
+  								<option value="16">16:00</option>
+  								<option value="16-30">16:30</option>
+  								<option value="17-00">17:00</option>
+  								<option value="17-30">17:30</option>
+							</select>
+						</span>	
+					</div>
+
+					<div class="form__group">
+						<span class="icon-location"></span>
+						<select>
+							<option selected="selected" value="null">Sucursal</option>
+  							<option value="metepec">Metepec</option>
+  							<option value="toluca">Toluca</option>
+						</select>
+					</div>
+
 					<input class="btn-primary" type="submit" value="reservar">
 				</form>
 

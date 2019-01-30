@@ -1,8 +1,17 @@
+[class^="icon-"]:before,[class*=" icon-"]:before{
+	position:relative;
+	top:.1em;
+	margin-right:.2em
+}
 .btn-primary{
 	background:#E20613;
 	color: #fff;
 	border: 0;
 	padding: 5px 20px;
+}
+
+.primary-color{
+	color:#E20613;
 }
 
 body{
@@ -124,5 +133,13 @@ header{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+}
+
+.header__form [class^="icon-"]:before{
+	font-size:20px;
+	color:#E20613;
+}
+
+idth: 25%;
 }
 
