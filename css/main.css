@@ -126,14 +126,3 @@ header{
 	align-items: center;
 }
 
-.header__date{
-	position: relative;
-}
-
-.header__date:before{
-	position: absolute;
-	content: 'Hola';
-	top: 50%;
-	left: -10%;
-	color: red;
-}
