@@ -26,6 +26,14 @@ ul.redpoint li::before {
 	text-align: justify;
 }
 
+.menu__mobile__icon{
+	width: 20px;
+}
+
+.hidden{
+	display: none;
+}
+
 
 :root{
 	--main-color:#E20613;
@@ -309,6 +317,71 @@ header{
 	font-weight: bold;
 }
 
+/*
+******** CONTACTO ***************
+*/
+
+.contacto{
+	margin: 2em auto;
+}
+
+.contact__form{
+
+	width: 60%;
+}
+
+
+.contact__form form{
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.contact__form form input, .contact__form form select,  .contact__form form textarea{
+
+	width: 100%;
+	padding: 0.5em;
+	box-sizing: border-box;
+	margin:0.5em 0;
+}
+
+.contact__info{
+	width: 40%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.contact__address{
+	line-height: 2em;
+}
+
+.contact__social{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.contact__social .icon-facebook, .contact__social .icon-instagram{
+	text-decoration: none;
+	color: var(--main-color);
+	font-size: 30px;
+	margin-right: 10px;
+}
+
+.icon-whatsapp{
+	background: #128C7E;
+	color: #fff;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	border-radius: 10px;
+	text-decoration: none;
+}
 
 /*
 ********* TESTIMONIOS ***********
@@ -396,3 +469,125 @@ header{
 .tabcontent__map{
 	width: 60%;
 }
+
+/*
+********* newsletter **********
+*/
+
+.newsletter{
+	margin-top: 1em;
+	background: #0B6595;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
+	padding: 20px;
+
+}
+
+.input__newsletter{
+	padding:10px;
+	position: relative;
+	border: 0;
+	width: 250px;
+}
+
+.send__newsletter{
+	padding: 10px;
+	background:#E20613;
+	color: #fff;
+	border: 0;
+}
+
+/*
+******** FOOTER **********
+*/
+
+.footer{
+	margin-top: 2em;
+	width: 95%;
+	margin: 0 auto;
+	display:flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex-wrap: wrap; 
+}
+
+.footer__section{
+	width: 20%;
+}
+
+.footer__instagram{
+	width: 40%;
+}
+
+.footer__list{
+	padding: 0;
+	list-style: none;
+	line-height: 2.5em;
+	color: #000;
+}
+
+.footer a{
+	color: #2E2E2E;
+	text-decoration: none;
+}
+
+footer{
+	background: #353535;
+	color:#fff;
+	display: flex;
+	justify-content: space-around;
+	padding: 10px;
+	align-items: center;
+
+}
+
+footer a{
+	color: #fff;
+	text-decoration: none;
+}
+
+
+/*
+****** RESPONSIVE DESIGN *******
+*/
+
+@media screen and (max-width: 1024px) { 
+
+	.menu__items ul {
+		padding: 0;
+		width: 60%;
+    	font-size: 13px;
+	}
+}
+
+@media screen and (max-width: 768px) { 
+	
+	body{
+		background: yellow;
+	}
+
+	.header__form{
+		width: 600px;
+	}
+
+	.menu__items ul a{
+		padding: 0;
+		margin-right: 0.8em;
+	}
+
+	.menu__items .menu__phone{
+		font-size: 13px;
+		padding: 7px;
+	}
+
+}
+
+/*
+
+@media screen and (max-width: 480px) { }
+@media screen and (max-width: 320px) { }
+
+*/
