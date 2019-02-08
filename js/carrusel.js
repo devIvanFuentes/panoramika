@@ -11,6 +11,10 @@ $(document).ready(function(){
             items:1,
             nav:true
         },
+        768:{
+            items:2,
+            nav:true
+        },
         600:{
             items:3,
             nav:true

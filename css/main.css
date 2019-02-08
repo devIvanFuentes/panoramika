@@ -565,23 +565,60 @@ footer a{
 
 @media screen and (max-width: 768px) { 
 	
-	body{
-		background: yellow;
-	}
+	
 
 	.header__form{
 		width: 600px;
 	}
 
-	.menu__items ul a{
-		padding: 0;
-		margin-right: 0.8em;
+
+	.menu__items ul{
+		display: none;
 	}
 
-	.menu__items .menu__phone{
-		font-size: 13px;
-		padding: 7px;
+	.hidden{
+		display: block;
+		margin-right: 10px;
+		cursor: pointer
 	}
+
+	.filosofia__imagen{
+		width: 35%;
+	}
+
+	.filosofia__contenido .pnrm80{
+		width: 70%;
+	}
+
+	.filosofia__contenido .pnrm80 h2{
+		font-size: 20px;
+	}
+
+	.filosofia__contenido p{
+		font-size: 17px;
+		line-height: 22px;
+	}
+
+	.tabcontent__info, .tabcontent__map{
+		width: 50%;
+	}
+
+	.form__newsletter{
+		width: 60%;
+	}
+
+	.footer__section{
+		width: 30%;
+	}
+
+	.footer__instagram{
+		width: 100%;
+	}
+
+}
+
+@media screen and (max-width: 480px) {
+
 
 }
 
